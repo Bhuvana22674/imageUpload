@@ -1,0 +1,7 @@
+<h1>Images</h1>
+<h2><a href="/images/new">Add New Image</a></h2>
+<% @images.each do |image| %>
+  <%= image_tag(image.image.url(:default)) %>
+<% end %>
+<!--link_to image_tag post.image-->
+<!--image_tag-->
